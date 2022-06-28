@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bitter&family=Caveat:wght@500&family=Permanent+Marker&family=Roboto+Mono:wght@300&family=Short+Stack&family=Ubuntu+Mono&family=Ubuntu:wght@500&family=Work+Sans:wght@300&display=swap');
+
+
+/*
+ font-family: 'Abel', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Short Stack', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Work Sans', sans-serif; */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index:1;
+    
+
+
+}
+.logo{
+    width: 6%;
+    margin: 8px 12px;
+    
+}
+#logo-txt{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(20, 104, 230);
+    font-family: 'Permanent Marker', cursive;
+   
+    
+}
+
+.menu{
+    font-size: 25px;
+    
+}
+.nav-list{
+    display: flex;
+
+}
+.nav-iteam{
+    list-style: none;
+    padding: 5px;
+    margin: 0px 20px;
+
+
+}
+.nav-iteam a{
+    text-decoration: none;
+    color: rgb(31, 26, 26);
+
+}
+.nav-iteam a:hover{
+    color: rgb(68, 64, 64);
+    border-bottom: 2px solid rgb(156, 127, 127);
+    
+
+ 
+
+}
+.rightnav{
+    margin-right: 10px;
+
+
+}
+.btn{
+    width: 120px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px 6px;
+    background: none;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(207, 200, 204);
+   
+}
+.nav-btn{
+    width: 100px;
+    border-radius: 2px;
+    border: 1px solid green;
+    cursor: pointer;
+
+}
+
+.f-section{
+    height: 80vh;
+    /* border: 2px solid red; */
+    
+}
+.nav-background{
+    
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    opacity: 1;
+    /* background-position: center center ;    */
+    background-size: cover;
+
+}
+.background{
+    
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: center center ;   
+    background-size: cover;
+
+}
+.main-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+
+    
+}
+.text-big{
+    font-size: 2rem;
+    padding: 3px;
+}
+.text-sm{
+    font-size: 30px;
+    padding: 5px;
+    
+}
+.txt-sm{
+    font-size: 20px;
+}
+.text-es{
+    font-size: 1.5rem;
+    padding: 5px;
+    
+}
+.ubanto{
+
+    font-family: 'Bitter', serif; 
+    
+}
+.title-heading{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
+.label{
+    
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    color: rgb(219, 16, 77);
+    
+
+}
+.title-label{
+    
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    
+
+}
+.title
+{
+
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(10, 81, 235);
+    margin-top:2rem;
+
+}
+.searc-form{
+    margin-top: 40px;
+    width: 50%;
+    height: 80px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    display: center;
+
+}
+.searc-form input{
+    /* background: none; */
+    opacity: 0.7;
+    padding: 10px;
+    /* height: 1.5m; */
+    width: 73%;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid black;
+
+
+}
+.big-btn{
+    padding: 10px;
+    margin: 0px;
+    min-width: 20%;
+    font-size: 1.5rem;
+    
+
+}
+.btn-white{
+    background-color: rgb(245, 238, 238);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 0);
+    margin-top: 10px;
+}
+.s-section{
+    position: relative;
+    top: -120px;
+    /* border: 2px solid red; */
+
+
+}
+#cards{
+    display: flex;
+    flex-wrap:wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(219, 224, 228);
+    width: 25%;
+    height: 350px;
+
+}
+article h2{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+.t-sec{
+    width: 100vw;
+    background-color: rgb(250, 250, 236);
+    padding: 20px;
+
+}
+.p-iteams{
+    width: 70%;
+    /* border: 1px solid rgb(197, 62, 62); */
+    border-radius: 10px;
+    margin: auto;
+}
+.p-iteam{
+    margin-top: 10px;
+    border: 1px solid rgb(197, 193, 193);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.thumbnail{
+    width: 30%;
+    
+}
+.thumbnail img{
+    width: 100%;
+    border: 2px solid rgb(88, 87, 87);
+    border-radius: 3px;
+    /* padding: 5px; */
+    
+}
+.ab-pkg{
+    padding: 10px;
+    width: 50%;
+}
+
+.fourth-section{
+    width: 100vw;
+    background-color: rgb(245, 245, 236);
+    padding: 20px;
+
+}
+/* .places{
+    width: 80%;
+    border: 2px solid green;
+} */
+.places-container{
+
+    display: flex;
+    border: 2px solid rgb(187, 162, 162);
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.place{
+    margin: 10px;
+    width: 300px;
+    height: 380px;
+    border: 1px solid rgb(83, 83, 87);
+}
+.thumbnail-2{
+    width: 100%;
+}
+.thumbnail-2 img{
+    width: 100%;
+}
+.details{
+    text-align: center;
+}
+.price{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer{
+
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(31, 29, 29);
+ }
+ body {
+
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  .burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 10%;
+    left: 5px;
+
+
+}
+.line{
+    width: 35px;
+    background: white;
+    height: 4px;
+    margin: 7px 3px;
+}
+  /* ================================================================= */
+  @media only screen and (max-width: 1350px) {
+    .s-section{
+        position: static;
+    }
+    .f-section{
+        height: 70vh;
+  
+        
+    }
+    
+    article{
+        margin-top: 20px;
+        width: 100%;
+        height: 180px;
+    
+    }
+    #cards{
+        flex-direction: column;
+    
+    
+    }
+    .text-big{
+        font-size: 2rem;
+        padding: 3px;
+    }
+    .title-heading{
+
+        font-size: 1.5rem;
+
+    }
+
+    .searc-form{
+        min-width: 70%;
+  
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 1100px) {
+    .p-iteams{
+        width: 80%;
+
+    }
+
+
+  }
+  @media only screen and (max-width: 900px) {
+
+    .f-section{
+        height: 80vh;
+    }
+      .logo{
+      display: none;
+          
+      }
+    .nav-list{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        flex-direction: column;
+
+    
+    }
+    .navbar{
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.7s ease-out;
+        /* text-align: center; */
+    
+    
+    }
+    .rightnav{
+
+        position: absolute;
+        top: 10%;
+        right: 10px;
+    
+    
+    }
+    .burger{
+        display: block;
+    
+    
+    }
+    .h-nav{
+        height: 3.5rem;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .b-class{
+        visibility: hidden;
+    }
+
+
+    
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    .text-big{
+        font-size: 1.5rem;
+        padding: 3px;
+    }
+    .text-sm{
+        font-size: 1.2rem;
+        padding: 5px;
+        
+    }
+    .searc-form{
+        min-width: 70%;
+  
+    }
+    .searc-form input{
+    
+        opacity: 0.7;
+        padding: 2px;
+        max-width: 70%;
+        min-width: 50%;
+        height: 1.2rem;
+        font-size: 16px;
+  
+    
+    
+    }
+    .f-section{
+        height: 70vh;
+    }
+    .main-box{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 250px;
+    
+        
+    }
+    .title-label{
+        font-size: 1.5rem;
+
+        
+    
+    }
+    .nav-btn{
+        width: 70px;
+        font-size: 18px;
+    
+    }
+    .btn{
+        width: 100px;
+        font-size: 18px;
+        padding: 0px;
+        margin: 0px 3px;
+        background: white;
+        cursor: pointer;
+        
+    }
+
+    .article{
+        justify-content: space-around;
+        max-width: 70%;
+        min-width: 60%;
+        height: 50%;
+        padding: 20px;
+        margin: 10px
+    
+    }
+    #cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+
+    .p-iteams{
+        width: 70%;
+    }
+    
+    .p-iteam{
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+
+        padding: 5px;
+        /* align-items: center; */
+        justify-content: space-between;
+    }
+    .thumbnail{
+        width: 100%;
+        
+    }
+    .ab-pkg{
+        padding: 5px;
+        width: 90%;
+    }
+  
+
+
+
+  
+
+
+
+  }
